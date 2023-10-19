@@ -43,5 +43,7 @@ $db->addServer(array (
   'port' => '3306',
   'database' => 'koowk.com',
   'engine' => 'InnoDB',
+  'sslCa' => '',
+  'sslVerify' => true,
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
